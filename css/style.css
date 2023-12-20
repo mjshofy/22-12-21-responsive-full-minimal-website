@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+/* font-family: 'Raleway', sans-serif; */
+/* google fonts */
+
+/* adding base style ---------- */
+
+/* CSS custom properties to reuse in the design */
+:root {
+  --clr-primary: #4e8e57;
+  --clr-secondary: #0f5e43;
+
+  --clr-white: #ffffff;
+  --clr-dark: #212121;
+  --clr-grey: #4d4d4d;
+  --clr-light: #d8d8d8;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+
+  position: relative;
+}
+
+h1,
+h2 {
+  line-height: 1.1;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: baseline;
+}
+
+/* repeated style ---------- */
+
+/* header section style ---------- */
+
+/* using css pseudo selector ---------- */
+
+/* hero section style ---------- */
+
+/* article section style ---------- */
+
+/* our motto section style ---------- */
+
+/* CSS style website newsletter  ---------- */
+
+/*  adding footer section style ---------- */
